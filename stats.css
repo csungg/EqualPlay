@@ -29,6 +29,10 @@ h3 {
   font-family: sans-serif;
 }
 
+img:hover {
+  -webkit-transform: scale(1.2,1.2);
+}
+
 
 
 body{background-color:#C56FF4;}
