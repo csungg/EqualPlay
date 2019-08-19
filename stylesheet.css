@@ -1,12 +1,44 @@
+<<<<<<< HEAD
 h1 {text-align: center;color:#C56FF4; font-size:100px; font-family: sans-serif;}
 h2 {style="background-color:#C56FF4;" font-size:30px; font-family: sans-serif;}
 h3 {color:Black; font-size:30px; font-family: sans-serif;}
 h4 {color:Black; font-size:30px; font-family: sans-serif;}
 h5 {color:Black; font-size:20px; font-family: sans-serif;}
+=======
+h1 {text-align:
+  center;color:#C56FF4;
+  font-size:100px;
+  font-family: roman;}
+
+h2 {text-align: center;
+  color:#C56FF4;
+  font-size:50px;
+  font-family: roman;}
+
+h3 {text-align: center;
+  color:pink;
+  font-size:40px;
+  font-family: roman;}
+
+h4 {text-align: center;
+  color:lightblue;
+  font-size:20px;
+  font-family: roman;}
+
+h5 {
+  margin-left: 10;
+  color:#C56FF4;
+  font-size:50px;
+  font-family: roman;}
+>>>>>>> 3c8238cba2e118990a73f9b14618dbb99b55f76a
 
 span{
    color:#673A82;
 }
 
+<<<<<<< HEAD
 
 border: 1px solid #979797;
+=======
+margin-left: 0;
+>>>>>>> 3c8238cba2e118990a73f9b14618dbb99b55f76a
