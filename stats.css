@@ -31,8 +31,11 @@ h3 {
 
 img:hover {
   -webkit-transform: scale(1.2,1.2);
+  margin: 50px
 }
 
 
 
-body{background-color:#C56FF4;}
+body{background-color:#C56FF4;
+
+   }
