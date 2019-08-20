@@ -3,7 +3,6 @@
     <link rel="stylesheet" href = "stylesheet.css">
     <!-- Information about the site -->
   </head>
-
   <body>
     <h1> EQUAL <span> P</span>L<span>AY </span> </h1>
     <img src="equalplay.jpg" width = "25%" class="center"> </img>
@@ -11,12 +10,8 @@
         img:hover {-webkit-transform: scaleX(-1);
     transform: scaleX(-1);}
     </style>
-    <h3> AUDREY, CHRISTINA, HALEY, JALA </h3>
-
-
     <h2> What's the problem? </h2>
-    <h4> "The complaint highlighted instances where members of the womens team were paid less than their male peers, ranging from sponsorship appearances and per-diems to game compensation. In 2015 World Cup play, for example, the filing outlined that women earned four times less than the men while performing demonstrably better. Last year, the women won their third World Cup, while the men have not advanced past the quarterfinals in the modern era. (They placed third in 1930.)" - pbs.org </h4>
-
+    <h4>"The complaint highlighted instances where members of the womens team were paid less than their male peers, ranging from sponsorship appearances and per-diems to game compensation. In 2015 World Cup play, for example, the filing outlined that women earned four times less than the men while performing demonstrably better. Last year, the women won their third World Cup, while the men have not advanced past the quarterfinals in the modern era. (They placed third in 1930.)" - pbs.org </h4>
     <center>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -145,48 +140,131 @@
 
 
 <aside>
-  <h3> About US </h3>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  html {
+    box-sizing: border-box;
+  }
 
-  <h7>
-  <p> Jala Stewart </p>
-  <p> April 3, 2002 </p>
-  <p> Brockton High School </p>
-  <p> Favorite Color: Purple </p>
-  <p> Favorite Sport: Soccer </p>
-  <h7/>
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
-  <h8>
-  <p> Haley Mercado </p>
-  <p> November 6, 2002 </p>
-  <p> Margarita Muniz Academy </p>
-  <p> Favorite Color: Purple or Pink </p>
-  <p> Favorite Sport: Squash/Running </p>
-  <h8/>
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
 
-  <h9>
-  <p> Christina Sung </p>
-  <p> August 8, 2002 </p>
-  <p> Sharon High School </p>
-  <p> Favorite Color: Purple </p>
-  <p> Favorite Sport: Swimming </p>
-  <h9/>
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
 
-  <h10>
-  <p> Audrey Borenstein </p>
-  <p> January 7, 2002 </p>
-  <p> Mystic Valley Regional Charter School </p>
-  <p> Favorite Color: Green </p>
-  <p> Favorite Sport: Volleyball </p>
-</h10>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 
-</aside>
+  .container {
+    padding: 0 16px;
+  }
 
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .title {
+    color: grey;
+  }
 
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
 
+  .button:hover {
+    background-color: #555;
+  }
+  </style>
+  </head>
+  <body>
+    <center>
+<h2>About Us</h2>
+<br>
+  <br>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Christina Sung</h2>
+          <p class="title">Future Business Women</p>
+            <p>Established: August 8, 2002</p>
+          <p>Current School: Sharon High</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
 
-</form>
-
+    <div class="column">
+      <div class="card">
+        <img src="jbabys.JPG" alt="Mike" style="width:75%">
+        <div class="container">
+          <h2>Jala Stewart</h2>
+          <p class="title">Future Computer Engineer</p>
+          <p>Established: April 3, 2002</p>
+          <p>Current School: Brockton High</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Audrey Borenstein</h2>
+          <p class="title">Future Bioengineer</p>
+          <p>Established: January 7, 2002</p>
+          <p>Current School: Mystic Valley Regional Charter</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="haley.JPG" alt="John" style="width:75%"{
+      rotation-point:50% 50%;
+      rotation:360deg;
+      }
+      <div class="container">
+        <center>
+        <h2>Haley Mercado</h2>
+        <p class="title">Future Musician</p>
+        <p>Established: November 6, 2002</p>
+        <p>Current School: Margarita Muniz Academy</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </body>
+  </html>
 <style>
 /* width */
 ::-webkit-scrollbar {
