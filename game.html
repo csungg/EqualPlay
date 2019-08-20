@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href = "stylesheet.css">
+    <!-- Information about the site -->
+  </head>
+
+    <body>
+      <body style= "background-color:;">
+    <h2> START GAME </span> </h2>
+    <img src="equalplay.jpg" width = "15%" class="center"> </img>
+
+    <h3>Soccer Fields</h3>
+    <p> <h4> There are two playing fields, A and B that are free to play on. Both
+      playing fields are different in grass or turf. Which one would you choose? </h4> </p>
+    <center> <button onclick="myFunction(this)">A</button> <p id="hi"></p> </center>
+    <center> <button onclick="myWord(this)">B</button> <p id="go"></p> </center>
+  <h3>Pay Day</h3>
+  <p> <h4> There are 2 checks, A and B, one check is higher than the other. If you
+    were to choose one, which one would it be? </h4> </p>
+    <center> <button onclick="myGod(this)">A</button> <p id="crazy"></p> </center>
+    <center> <button onclick="myLord(this)">B</button> <p id="great"></p> </center>
+
+    <h3>Players</h3>
+    <p> <h4> There are 2 teams, both men and women. If you had to pick one team to play
+     in, which one would you choose? </h4> </p>
+      <center> <button onclick="myGrain(this)">A</button> <p id="wow"></p> </center>
+      <center> <button onclick="myHead(this)">B</button> <p id="awesome"></p> </center>
+
+      <h3>Teams</h3>
+      <p> <h4> There are 2 team, one team gets paid more than the other, which team would you choose? </h4> </p>
+      <center> <button onclick="myHouse(this)">A</button> <p id="who"></p> </center>
+      <center> <button onclick="myFoot(this)">B</button> <p id="how"></p> </center>
+</form>
+
+    <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    <script>
+    function myFunction() {
+      document.getElementById("go").innerHTML = "The turf for women's soccer is poorly laid and makes gaps big enough to make them trip.";
+    }
+    function myWord() {
+      document.getElementById("go").innerHTML = "The turf for men's soccer is freshly laid and helps them play better.";
+    }
+    function myGod() {
+      document.getElementById("great").innerHTML = "When women's soccer team lose, they earn nothing, but $0,000.";
+    }
+    function myLord() {
+      document.getElementById("great").innerHTML = "When men's soccer teams lose, they earn $5,000.";
+    }
+    function myGrain() {
+      document.getElementById("awesome").innerHTML = "They will have teamwork, supporting each other and creating a sisterhood.";
+    }
+    function myHead() {
+      document.getElementById("awesome").innerHTML = "They will go tougher on you, make sexist remarks about playing a men's sport.";
+    }
+    function myHouse() {
+      document.getElementById("how").innerHTML = "Women's soccer players receives $1,350 than the men and that is $16,275 less than the men.";
+    }
+    function myFoot() {
+      document.getElementById("how").innerHTML = "Men's soccer players receives $17,625 and it is $16,275 more than the women get.";
+    }
+    </script>
+
+
+</body>
+</html>
