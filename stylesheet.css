@@ -24,28 +24,28 @@ h5 {
   font-size:50px;
   font-family: roman;}
 
-h6 {
-  margin-left: 10;
-  color:#BC87F5;
-  font-size:20px;
-  font-family: roman;}
-
 h7 {
   margin-left: 10;
-  color:#FCA3FC;
-  font-size:20px;
+  color:#BC87F5;
+  font-size:22px;
   font-family: roman;}
 
-  h8 {
+h8 {
+  margin-left: 10;
+  color:#FCA3FC;
+  font-size:22px;
+  font-family: roman;}
+
+  h9 {
     margin-left: 10;
-    color:#BC87F5;
-    font-size:20px;
+    color:#A6A3FC;
+    font-size:22px;
     font-family: roman;}
 
-    h9 {
+    h10 {
       margin-left: 10;
       color:#87F58F;
-      font-size:20px;
+      font-size:22px;
       font-family: roman;}
 
 span{
