@@ -1,27 +1,51 @@
 h1 {text-align:
-  center;color:#a134eb;
+  center;color:#C56FF4
   font-size:100px;
   font-family: roman;}
 
 h2 {text-align: center;
-  color:pink;
-  font-size:55px;
+  color:#C56FF4;
+  font-size:50px;
   font-family: roman;}
 
 h3 {text-align: center;
   color:pink;
-  font-size:55px;
+  font-size:40px;
   font-family: roman;}
 
 h4 {text-align: center;
-  color:pink;
-  font-size:50px;
+  color:lightblue;
+  font-size:20px;
   font-family: roman;}
 
 h5 {text-align: center;
-  color:pink;
+  color:#C56FF4;
   font-size:50px;
   font-family: roman;}
+
+h7 {
+  margin-left: 10;
+  color:#BC87F5;
+  font-size:22px;
+  font-family: roman;}
+
+h8 {
+  margin-left: 10;
+  color:#FCA3FC;
+  font-size:22px;
+  font-family: roman;}
+
+  h9 {
+    margin-left: 10;
+    color:#A6A3FC;
+    font-size:22px;
+    font-family: roman;}
+
+    h10 {
+      margin-left: 10;
+      color:#87F58F;
+      font-size:22px;
+      font-family: roman;}
 
 span{
    color:#673A82;
@@ -41,6 +65,16 @@ span{
    font-family: normal;
  }
 
+<<<<<<< HEAD
  .button:hover {
    background-color: blue;
  }
+=======
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 40%
+}
+>>>>>>> 53ea3b7d05cad85bc736a18d534590cc816209d4
