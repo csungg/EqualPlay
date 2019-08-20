@@ -52,4 +52,10 @@ span{
    color:#673A82;
 }
 
-margin-left: 0;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 40%
+}
