@@ -1,6 +1,17 @@
-h1 {text-align: center;color:#C56FF4; font-size:100px; font-family: sans-serif;}
-h2 {text-align: center;color:#C56FF4; font-size:70px; font-family: sans-serif;}
-h3 {text-align: center;color:pink; font-size:20px; font-family: sans-serif;}
+h1 {text-align:
+  center;color:#C56FF4;
+  font-size:100px;
+  font-family: sans-serif;}
+
+h2 {text-align: center;
+  color:#C56FF4;
+  font-size:70px;
+  font-family: sans-serif;}
+
+h3 {text-align: center;
+  color:pink;
+  font-size:40px;
+  font-family: sans-serif;}
 
 span{
    color:#673A82;
